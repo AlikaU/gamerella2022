@@ -179,6 +179,14 @@
 							"parameters": {
 								"control": "left"
 							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 865809800419282,
+							"parameters": {
+								"state": "not-mirrored"
+							}
 						}
 					],
 					"sid": 981006058768035,
@@ -217,6 +225,14 @@
 							"behaviorType": "TileMovement",
 							"parameters": {
 								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 391643790605272,
+							"parameters": {
+								"state": "mirrored"
 							}
 						}
 					],

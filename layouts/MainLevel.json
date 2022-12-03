@@ -170,8 +170,8 @@
 						}
 					},
 					"world": {
-						"x": 160,
-						"y": 88,
+						"x": 15.947007313147708,
+						"y": 152.4908775045762,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -1925,7 +1925,7 @@
 				{
 					"type": "TextFont",
 					"properties": {
-						"text": "1. Use the arrow keys to move around.\n2. Press \"M\" to mask.\n3. Press \"Space Bar\" to drop a bomb.",
+						"text": "This is Jo.\nJo is having a really bad day. Jo is grumpy and wants to yell at everything and everyone.\nBut that's not cool. Jo can put on a mask to look normal.\nBut having the mask on is tiring. He can't always have it on.\nGet Jo home without ruining other people's day",
 						"enable-bbcode": true,
 						"character-width": 11,
 						"character-height": 16,
@@ -1955,10 +1955,10 @@
 						}
 					},
 					"world": {
-						"x": 48,
-						"y": 96,
-						"width": 224,
-						"height": 48,
+						"x": 50.45345729636975,
+						"y": 106.51481698444178,
+						"width": 41.04218447071315,
+						"height": 41.34061590985354,
 						"originX": 0,
 						"originY": 0,
 						"color": [
