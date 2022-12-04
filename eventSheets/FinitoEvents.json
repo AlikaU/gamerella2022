@@ -12,11 +12,28 @@
 			],
 			"actions": [
 				{
+					"id": "stop-all",
+					"objectClass": "SoundsAndMusic",
+					"sid": 310229279268375
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 277316688746063,
 					"parameters": {
 						"layout": "MainLevel"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "SoundsAndMusic",
+					"sid": 710203683390454,
+					"parameters": {
+						"audio-file": "back1",
+						"loop": "looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -79,11 +96,11 @@
 				{
 					"id": "play",
 					"objectClass": "SoundsAndMusic",
-					"sid": 136617475877181,
+					"sid": 609163235972804,
 					"parameters": {
 						"audio-file": "happy-loop-6978",
 						"loop": "looping",
-						"volume": "0",
+						"volume": "-30",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}

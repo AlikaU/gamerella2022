@@ -23,6 +23,14 @@
 					],
 					"actions": [
 						{
+							"id": "stop",
+							"objectClass": "SoundsAndMusic",
+							"sid": 558469390529521,
+							"parameters": {
+								"tag": "\"GrumpyOldMan\""
+							}
+						},
+						{
 							"id": "wait",
 							"objectClass": "System",
 							"sid": 262505883323928,
@@ -365,7 +373,7 @@
 						{
 							"id": "play",
 							"objectClass": "SoundsAndMusic",
-							"sid": 817298658734510,
+							"sid": 171165684968753,
 							"parameters": {
 								"audio-file": "grumpy-old-man-highpitch",
 								"loop": "looping",
@@ -786,11 +794,11 @@
 						{
 							"id": "play",
 							"objectClass": "SoundsAndMusic",
-							"sid": 473009573651701,
+							"sid": 776584982489265,
 							"parameters": {
 								"audio-file": "owhnoh-highpitch",
 								"loop": "not-looping",
-								"volume": "0",
+								"volume": "60",
 								"stereo-pan": "0",
 								"tag-optional": "\"\""
 							}
