@@ -89,6 +89,16 @@
 							"parameters": {
 								"key": 77
 							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 281787883442932,
+							"parameters": {
+								"instance-variable": "energy",
+								"comparison": 4,
+								"value": "0"
+							}
 						}
 					],
 					"actions": [
@@ -149,8 +159,44 @@
 				},
 				{
 					"eventType": "block",
-					"conditions": [],
-					"actions": [],
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 836656934140806,
+							"parameters": {
+								"interval-seconds": "0.1"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 261846770068327,
+							"parameters": {
+								"instance-variable": "isYelling"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 263571817741801,
+							"parameters": {
+								"instance-variable": "energy",
+								"value": "-1"
+							}
+						},
+						{
+							"id": "set-width",
+							"objectClass": "energyBarProgress",
+							"sid": 652394851937817,
+							"parameters": {
+								"width": "(Player.energy/100)*238"
+							}
+						}
+					],
 					"sid": 594965985192577
 				}
 			],

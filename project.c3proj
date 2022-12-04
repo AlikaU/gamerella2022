@@ -71,6 +71,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "progressbar",
+			"name": "Progress bar",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -147,7 +155,10 @@
 			"Text2",
 			"Text3",
 			"Text4",
-			"Sprite"
+			"Sprite",
+			"ProgressBar",
+			"border",
+			"energyBarProgress"
 		],
 		"subfolders": []
 	},

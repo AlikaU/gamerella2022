@@ -22,6 +22,7 @@ async function OnBeforeProjectStart(runtime)
 	
 	runtime.addEventListener("tick", () => Tick(runtime));
 	
+// 	runtime.addEventListener("afterlayoutstart")
 	// get the player instance
 	player = runtime.objects.Player.getFirstInstance();
 }
@@ -31,7 +32,7 @@ function Tick(runtime)
 // 	if (player == null) {
 // 		return;
 // 	}
-// 	if (player.isYelling){
+// 	if (playerisYelling){
 // 		console.log("yelling");
 // 	} else {
 // 		console.log("not yelling");

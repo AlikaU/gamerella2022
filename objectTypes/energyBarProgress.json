@@ -1,0 +1,37 @@
+{
+	"name": "energyBarProgress",
+	"plugin-id": "Sprite",
+	"sid": 193183871862782,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 238,
+						"height": 16,
+						"originX": 0,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8598476,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 219904823771085,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

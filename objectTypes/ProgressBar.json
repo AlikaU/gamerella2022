@@ -1,0 +1,16 @@
+{
+	"name": "ProgressBar",
+	"plugin-id": "progressbar",
+	"sid": 661881523702135,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "value",
+			"type": "number",
+			"desc": "energy bar value",
+			"show": true,
+			"sid": 611032968051650
+		}
+	],
+	"behaviorTypes": []
+}

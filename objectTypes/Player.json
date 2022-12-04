@@ -12,7 +12,7 @@
 			"sid": 438610275261130
 		},
 		{
-			"name": "Energy",
+			"name": "energy",
 			"type": "number",
 			"desc": "How much energy the player has",
 			"show": true,
