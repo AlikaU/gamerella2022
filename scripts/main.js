@@ -32,9 +32,9 @@ function Tick(runtime)
 // 		return;
 // 	}
 // 	if (player.isYelling){
-// 		console.log("not masked");
+// 		console.log("yelling");
 // 	} else {
-// 		console.log("masked");
+// 		console.log("not yelling");
 // 	}
 // 	console.log(player.x)
 // 	if (player.Masked && previousMaskedStatus == false) {

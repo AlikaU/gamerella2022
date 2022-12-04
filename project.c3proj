@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 31702,
-	"name": "4 Direction Bomb Template",
+	"name": "Grumpy Times",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
