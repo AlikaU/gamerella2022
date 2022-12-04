@@ -210,7 +210,8 @@
 			"TiledBackground2",
 			"endGameSprite",
 			"energyText",
-			"Background"
+			"Background",
+			"Sprite3"
 		],
 		"subfolders": []
 	},
