@@ -35,11 +35,11 @@
 				{
 					"id": "play",
 					"objectClass": "SoundsAndMusic",
-					"sid": 109572257087059,
+					"sid": 873906111671356,
 					"parameters": {
 						"audio-file": "back1",
 						"loop": "looping",
-						"volume": "-15",
+						"volume": "-25",
 						"stereo-pan": "0",
 						"tag-optional": "\"backround\""
 					}

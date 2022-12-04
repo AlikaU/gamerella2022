@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 31702,
-	"name": "Grumpy Times",
+	"name": "GrumpyTimes",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
