@@ -14,9 +14,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 627882497255272,
+					"sid": 438223848756883,
 					"parameters": {
-						"layout": "MainLevel"
+						"layout": "Instructions"
 					}
 				}
 			],
@@ -35,7 +35,7 @@
 				{
 					"id": "play",
 					"objectClass": "SoundsAndMusic",
-					"sid": 873906111671356,
+					"sid": 665614223639122,
 					"parameters": {
 						"audio-file": "back1",
 						"loop": "looping",

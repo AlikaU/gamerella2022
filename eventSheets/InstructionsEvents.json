@@ -1,0 +1,27 @@
+{
+	"name": "InstructionsEvents",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 854047170030401
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 220962384134535,
+					"parameters": {
+						"layout": "MainLevel"
+					}
+				}
+			],
+			"sid": 344764813837005
+		}
+	],
+	"sid": 257576711488957
+}

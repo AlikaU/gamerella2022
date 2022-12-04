@@ -1,15 +1,15 @@
 {
-	"name": "TitleScreen",
+	"name": "Instructions",
 	"layers": [
 		{
-			"name": "Welcome",
+			"name": "Layer 0",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
 					"type": "Text",
 					"properties": {
-						"text": "Hello! Welcome to the Grumpy game!",
+						"text": "Controls",
 						"enable-bbcode": true,
 						"font": "MV Boli",
 						"size": 12,
@@ -28,7 +28,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 58,
+					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {
 						"Fade": {
@@ -43,10 +43,63 @@
 						}
 					},
 					"world": {
-						"x": 17.40789317238503,
-						"y": 7.197363280693736,
+						"x": 16.08644320500602,
+						"y": 6.664576291924988,
 						"width": 290.3158288086044,
 						"height": 30.513158118230706,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text3",
+					"properties": {
+						"text": "Arrow keys: move\nM: mask\n\nIf you make too many people sad, you'll have to start over.\n\nAlso, Jo really loves coke! Help Jo collect all the cans so he can enjoy it at home.",
+						"enable-bbcode": true,
+						"font": "Lato",
+						"size": 8,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							0.9411764705882353,
+							0.9411764705882353,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 96,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 6,
+								"wait-time": 6,
+								"fade-out-time": 3,
+								"destroy": true,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 13.287396271496306,
+						"y": 31.389442985089403,
+						"width": 295.0263332219951,
+						"height": 132.16649347503497,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -81,12 +134,12 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 59,
+					"uid": 97,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 83.78950407937612,
-						"y": 161.2344568312987,
+						"x": 86.06257128704218,
+						"y": 161.544963429348,
 						"width": 150.76311990077988,
 						"height": 18.197363280693764,
 						"originX": 0,
@@ -100,115 +153,9 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "Text3",
-					"properties": {
-						"text": "Meet Jo.\nJo is having a really bad day. Jo is grumpy and wants to yell at everything and everyone. That's not cool though. Jo can put on a mask to look normal.\n\nBut having the mask on is tiring. He can't always have it on.\nGet Jo home without ruining other people's day.",
-						"enable-bbcode": true,
-						"font": "Lato",
-						"size": 8,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							0.9411764705882353,
-							0.9411764705882353,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 26,
-					"instanceVariables": {},
-					"behaviors": {
-						"Fade": {
-							"properties": {
-								"fade-in-time": 6,
-								"wait-time": 9,
-								"fade-out-time": 3,
-								"destroy": true,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": 15.055021769776829,
-						"y": 30.72487416558218,
-						"width": 295.0263332219951,
-						"height": 97.17843995930497,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text4",
-					"properties": {
-						"text": "Walk through the labyrinth and don't forget to \"smile\"! Otherwise you will have to restart. ",
-						"enable-bbcode": true,
-						"font": "cursive",
-						"size": 10,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 25,
-					"instanceVariables": {},
-					"behaviors": {
-						"Fade": {
-							"properties": {
-								"fade-in-time": 19,
-								"wait-time": 3,
-								"fade-out-time": 4,
-								"destroy": true,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": 14.891259216262085,
-						"y": 113.55293366754574,
-						"width": 235.92106827614947,
-						"height": 78.23686311368647,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
-			"sid": 621322078257673,
+			"sid": 465341088618472,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -237,7 +184,7 @@
 			"global": false
 		}
 	],
-	"sid": 787288888107998,
+	"sid": 783165358076320,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 320,
@@ -246,5 +193,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "TitleScreenEvents"
+	"eventSheet": "InstructionsEvents"
 }

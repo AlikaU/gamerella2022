@@ -217,6 +217,7 @@
 	"layouts": {
 		"items": [
 			"TitleScreen",
+			"Instructions",
 			"MainLevel",
 			"ObjectRepository",
 			"FinitoLayout"
@@ -227,7 +228,8 @@
 		"items": [
 			"MainCode",
 			"TitleScreenEvents",
-			"FinitoEvents"
+			"FinitoEvents",
+			"InstructionsEvents"
 		],
 		"subfolders": []
 	},
