@@ -67,6 +67,11 @@
 							"id": "reset-persisted-objects",
 							"objectClass": "System",
 							"sid": 583329524568364
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 393302335304898
 						}
 					],
 					"sid": 898461512405913
@@ -433,10 +438,10 @@
 						{
 							"id": "compare-eventvar",
 							"objectClass": "System",
-							"sid": 878089283992313,
+							"sid": 884222730723843,
 							"parameters": {
 								"variable": "Cokes",
-								"comparison": 0,
+								"comparison": 5,
 								"value": "4"
 							}
 						}
@@ -702,6 +707,7 @@
 							"id": "set-collisions-enabled",
 							"objectClass": "finito",
 							"sid": 168018866580763,
+							"disabled": true,
 							"parameters": {
 								"collisions": "disabled"
 							}
