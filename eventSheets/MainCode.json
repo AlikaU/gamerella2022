@@ -100,6 +100,15 @@
 								"animation": "\"Masked\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 364606382796184,
+							"parameters": {
+								"instance-variable": "isYelling",
+								"value": "false"
+							}
 						}
 					],
 					"sid": 991046029818778
@@ -124,6 +133,15 @@
 							"parameters": {
 								"animation": "\"Default\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 247089733005660,
+							"parameters": {
+								"instance-variable": "isYelling",
+								"value": "true"
 							}
 						}
 					],
@@ -1076,6 +1094,14 @@
 							"parameters": {
 								"object": "Player"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 511583350082768,
+							"parameters": {
+								"instance-variable": "isYelling"
+							}
 						}
 					],
 					"actions": [
@@ -1089,6 +1115,18 @@
 				}
 			],
 			"sid": 893761185814737
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 353541407961049
+				}
+			],
+			"actions": [],
+			"sid": 456841435305508
 		}
 	],
 	"sid": 538764664856079

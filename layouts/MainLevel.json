@@ -153,7 +153,10 @@
 						"live-preview": false
 					},
 					"uid": 3,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isYelling": false,
+						"Energy": 0
+					},
 					"behaviors": {
 						"TileMovement": {
 							"properties": {

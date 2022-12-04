@@ -3,7 +3,22 @@
 	"plugin-id": "Sprite",
 	"sid": 184922013710340,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "isYelling",
+			"type": "boolean",
+			"desc": "Whether the player has a mask on or not",
+			"show": true,
+			"sid": 438610275261130
+		},
+		{
+			"name": "Energy",
+			"type": "number",
+			"desc": "How much energy the player has",
+			"show": true,
+			"sid": 551155002008253
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "TileMovement",
