@@ -29,9 +29,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 821733586853396,
+							"sid": 262505883323928,
 							"parameters": {
-								"seconds": "1.0"
+								"seconds": "2.5"
 							}
 						},
 						{
@@ -708,6 +708,15 @@
 							"id": "destroy",
 							"objectClass": "Player",
 							"sid": 886376975752695
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 441664138255233,
+							"parameters": {
+								"animation": "\"Sad\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 950450869626461
