@@ -231,7 +231,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 85,
+					"uid": 88,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1067,7 +1067,7 @@
 					"world": {
 						"x": 64,
 						"y": 176,
-						"width": 240,
+						"width": 238,
 						"height": 4,
 						"originX": 0,
 						"originY": 0.5,

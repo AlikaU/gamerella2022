@@ -176,13 +176,23 @@
 								"instance-variable": "isYelling"
 							},
 							"isInverted": true
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 685123216260981,
+							"parameters": {
+								"instance-variable": "energy",
+								"comparison": 4,
+								"value": "0"
+							}
 						}
 					],
 					"actions": [
 						{
 							"id": "add-to-instvar",
 							"objectClass": "Player",
-							"sid": 263571817741801,
+							"sid": 746934093021864,
 							"parameters": {
 								"instance-variable": "energy",
 								"value": "-1"
@@ -198,6 +208,109 @@
 						}
 					],
 					"sid": 594965985192577
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 259368332780638,
+							"parameters": {
+								"interval-seconds": "0.1"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 213030533968071,
+							"parameters": {
+								"instance-variable": "isYelling"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 985382607581492,
+							"parameters": {
+								"instance-variable": "energy",
+								"comparison": 2,
+								"value": "100"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 809147943454981,
+							"parameters": {
+								"instance-variable": "energy",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-width",
+							"objectClass": "energyBarProgress",
+							"sid": 390620916059638,
+							"parameters": {
+								"width": "(Player.energy/100)*238"
+							}
+						}
+					],
+					"sid": 343189329104036
+				},
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [],
+					"sid": 191492352092707
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 325052671927856,
+							"parameters": {
+								"instance-variable": "energy",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 634140124733963,
+							"parameters": {
+								"animation": "\"Default\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"type": "comment",
+							"text": "might delete, trying to fix"
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 673106189617927,
+							"parameters": {
+								"instance-variable": "isYelling",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 480995064216047
+				},
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [],
+					"sid": 312816265639381
 				}
 			],
 			"sid": 785432312124313

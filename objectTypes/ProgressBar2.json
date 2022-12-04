@@ -3,6 +3,14 @@
 	"plugin-id": "progressbar",
 	"sid": 537996043362468,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "ValueBar2",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 438518391284856
+		}
+	],
 	"behaviorTypes": []
 }
