@@ -1,14 +1,14 @@
 {
-	"name": "Text",
+	"name": "Text3",
 	"plugin-id": "Text",
-	"sid": 673000867232919,
+	"sid": 391731895466352,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Fade",
 			"name": "Fade",
-			"sid": 709705415479643
+			"sid": 749702580810556
 		}
 	],
 	"effectTypes": []

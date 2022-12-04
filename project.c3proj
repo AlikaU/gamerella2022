@@ -143,7 +143,11 @@
 			"TextFont",
 			"TextBackground",
 			"Text",
-			"StartButton"
+			"StartButton",
+			"Text2",
+			"Text3",
+			"Text4",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -326,5 +330,5 @@
 	},
 	"viewportWidth": 320,
 	"viewportHeight": 180,
-	"firstLayout": null
+	"firstLayout": "TitleScreen"
 }

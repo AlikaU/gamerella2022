@@ -14,13 +14,19 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 426647782977081,
+					"sid": 627882497255272,
 					"parameters": {
 						"layout": "MainLevel"
 					}
 				}
 			],
 			"sid": 732743183936453
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 485191947312333
 		}
 	],
 	"sid": 617102843682538

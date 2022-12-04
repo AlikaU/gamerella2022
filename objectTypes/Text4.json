@@ -1,14 +1,14 @@
 {
-	"name": "Text",
+	"name": "Text4",
 	"plugin-id": "Text",
-	"sid": 673000867232919,
+	"sid": 838230085647823,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Fade",
 			"name": "Fade",
-			"sid": 709705415479643
+			"sid": 927577176736653
 		}
 	],
 	"effectTypes": []
