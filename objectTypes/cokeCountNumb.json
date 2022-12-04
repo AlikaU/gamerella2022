@@ -1,0 +1,17 @@
+{
+	"name": "cokeCountNumb",
+	"plugin-id": "Text",
+	"sid": 444835268649078,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "CokeValue",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 836244302193720
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

@@ -1,7 +1,7 @@
 {
 	"name": "finito",
 	"plugin-id": "Sprite",
-	"sid": 300495263954127,
+	"sid": 717252855388964,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 32,
+						"height": 32,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8340832,
+						"imageSpriteId": 875866,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 760354691062014,
+				"sid": 932543305041923,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

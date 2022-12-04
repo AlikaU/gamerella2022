@@ -159,14 +159,6 @@
 			"bundled": false
 		},
 		{
-			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
 			"type": "effect",
 			"id": "warpobject",
 			"name": "Warp object",
@@ -199,8 +191,6 @@
 			"ProgressBar",
 			"border",
 			"energyBarProgress",
-			"Sprite2",
-			"finito",
 			"TextInput",
 			"ProgressBar2",
 			"SVGPicture",
@@ -211,8 +201,10 @@
 			"endGameSprite",
 			"energyText",
 			"SoundsAndMusic",
-			"Sprite3",
-			"sadPplCountText"
+			"finito",
+			"CokesCountText",
+			"coke",
+			"cokeCountNumb"
 		],
 		"subfolders": []
 	},
