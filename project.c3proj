@@ -111,6 +111,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -204,7 +212,14 @@
 			"finito",
 			"CokesCountText",
 			"coke",
-			"cokeCountNumb"
+			"cokeCountNumb",
+			"Sprite3",
+			"sadPplCountText",
+			"Text6",
+			"yesPleaseBox",
+			"Mouse",
+			"Sprite4",
+			"instructions"
 		],
 		"subfolders": []
 	},
