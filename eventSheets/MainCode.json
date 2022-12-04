@@ -613,6 +613,30 @@
 			],
 			"actions": [],
 			"sid": 456841435305508
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 542060983089994,
+					"parameters": {
+						"object": "finito"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 529814613314878,
+					"parameters": {
+						"layout": "FinitoLayout"
+					}
+				}
+			],
+			"sid": 837383652074510
 		}
 	],
 	"sid": 538764664856079

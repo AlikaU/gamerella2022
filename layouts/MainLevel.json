@@ -221,6 +221,35 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "finito",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 85,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 304,
+						"y": 16,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 599687636066150,
@@ -548,7 +577,7 @@
 					},
 					"world": {
 						"x": 224,
-						"y": 152,
+						"y": 144,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -592,7 +621,7 @@
 						}
 					},
 					"world": {
-						"x": 120,
+						"x": 128,
 						"y": 152,
 						"width": 16,
 						"height": 16,
@@ -997,7 +1026,7 @@
 						}
 					},
 					"world": {
-						"x": 248,
+						"x": 256,
 						"y": 32,
 						"width": 16,
 						"height": 16,

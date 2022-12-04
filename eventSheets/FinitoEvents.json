@@ -1,0 +1,27 @@
+{
+	"name": "FinitoEvents",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button",
+					"sid": 579449244738685
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 277316688746063,
+					"parameters": {
+						"layout": "MainLevel"
+					}
+				}
+			],
+			"sid": 402262825576052
+		}
+	],
+	"sid": 544063216468106
+}

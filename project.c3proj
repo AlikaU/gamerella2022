@@ -79,6 +79,30 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Text input",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "SVGPicture",
+			"name": "SVG Picture",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -127,6 +151,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "warpobject",
 			"name": "Warp object",
@@ -158,7 +190,14 @@
 			"Sprite",
 			"ProgressBar",
 			"border",
-			"energyBarProgress"
+			"energyBarProgress",
+			"Sprite2",
+			"finito",
+			"TextInput",
+			"ProgressBar2",
+			"SVGPicture",
+			"Text5",
+			"Button"
 		],
 		"subfolders": []
 	},
@@ -172,14 +211,16 @@
 		"items": [
 			"TitleScreen",
 			"MainLevel",
-			"ObjectRepository"
+			"ObjectRepository",
+			"FinitoLayout"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"MainCode",
-			"TitleScreenEvents"
+			"TitleScreenEvents",
+			"FinitoEvents"
 		],
 		"subfolders": []
 	},
