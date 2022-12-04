@@ -939,7 +939,8 @@
 				{
 					"id": "every-tick",
 					"objectClass": "System",
-					"sid": 882698354129517
+					"sid": 882698354129517,
+					"disabled": true
 				}
 			],
 			"actions": [
@@ -947,6 +948,7 @@
 					"id": "set-text",
 					"objectClass": "CokesCountText",
 					"sid": 598851150864335,
+					"disabled": true,
 					"parameters": {
 						"text": "\"People you made sad: \" & sadPeople"
 					}

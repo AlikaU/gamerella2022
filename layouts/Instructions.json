@@ -62,7 +62,7 @@
 				{
 					"type": "Text3",
 					"properties": {
-						"text": "Arrow keys: move\nM: mask\n\nIf you make too many people sad, you'll have to start over.\n\nAlso, Jo really loves coke! Help Jo collect all the cans so he can enjoy it at home.",
+						"text": "Arrow keys: move\nM: mask\n\nIf you make too many people sad, you'll have to start over.\n\nAlso, Jo really loves coke! He must collect all the cans before going home.",
 						"enable-bbcode": true,
 						"font": "Lato",
 						"size": 8,
