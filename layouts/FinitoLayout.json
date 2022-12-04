@@ -7,48 +7,19 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "yesPleaseBox",
+					"type": "Text5",
 					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 108,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 163,
-						"y": 131,
-						"width": 259,
-						"height": 35,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text6",
-					"properties": {
-						"text": "YES, PLEASE!",
+						"text": "Congratulations! Want to play again?",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "MV Boli",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
 						"color": [
-							0.984313725490196,
-							0.9333333333333333,
-							0.9333333333333333,
+							1,
+							0.8784313725490196,
+							0.8784313725490196,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -61,10 +32,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 92,
-						"y": 122,
-						"width": 132,
-						"height": 22,
+						"x": 1,
+						"y": 22,
+						"width": 318,
+						"height": 30,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -83,7 +54,7 @@
 						"type": "button",
 						"text": "YES! PLEASE!",
 						"tooltip": "",
-						"initially-visible": false,
+						"initially-visible": true,
 						"enabled": true,
 						"auto-font-size": true,
 						"checked": false,
@@ -94,8 +65,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 69,
-						"y": 235,
+						"x": 94,
+						"y": 197,
 						"width": 136,
 						"height": 41,
 						"originX": 0,
@@ -109,46 +80,35 @@
 					}
 				},
 				{
-					"type": "Text",
+					"type": "yesText",
 					"properties": {
-						"text": "Congratulations! Want to play again?",
+						"text": "YES, PLEASE!",
 						"enable-bbcode": true,
-						"font": "MV Boli",
+						"font": "Lato",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
 						"color": [
 							0.984313725490196,
-							0.8549019607843137,
-							0.8745098039215686,
+							0.9333333333333333,
+							0.9333333333333333,
 							1
 						],
 						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
+						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 107,
+					"uid": 95,
 					"instanceVariables": {},
-					"behaviors": {
-						"Fade": {
-							"properties": {
-								"fade-in-time": 1,
-								"wait-time": 2,
-								"fade-out-time": 3,
-								"destroy": true,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 16,
-						"y": 17,
-						"width": 290.3158288086044,
-						"height": 30.513158118230706,
+						"x": 3,
+						"y": 140,
+						"width": 316,
+						"height": 30,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -162,7 +122,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "yesButton",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -170,15 +130,44 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 110,
+					"uid": 102,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 156.56172627877862,
-						"y": 82.53543026074708,
-						"width": 47.82345609065231,
-						"height": 50.63660056657303,
-						"originX": 0.5294117647058824,
+						"x": 164,
+						"y": 153,
+						"width": 180,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 104,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 158.15387518080013,
+						"y": 94.08418913142867,
+						"width": 71.11751412704905,
+						"height": 71.11751412704905,
+						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
 							1,
@@ -199,7 +188,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 111,
+					"uid": 105,
 					"instanceVariables": {
 						"Direction": 0
 					},
@@ -219,8 +208,8 @@
 						}
 					},
 					"world": {
-						"x": 86.5291336318212,
-						"y": 133.08607139571743,
+						"x": 95.95286229117661,
+						"y": 154.67817360518367,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -244,7 +233,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 112,
+					"uid": 106,
 					"instanceVariables": {
 						"Direction": 0
 					},
@@ -264,8 +253,8 @@
 						}
 					},
 					"world": {
-						"x": 230.0302606040225,
-						"y": 131.58344179391426,
+						"x": 225.95423591700217,
+						"y": 154.35954278747332,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,

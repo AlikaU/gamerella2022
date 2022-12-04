@@ -213,13 +213,10 @@
 			"CokesCountText",
 			"coke",
 			"cokeCountNumb",
-			"Sprite3",
-			"sadPplCountText",
-			"Text6",
-			"yesPleaseBox",
+			"yesText",
+			"yesButton",
 			"Mouse",
-			"Sprite4",
-			"instructions"
+			"Sprite2"
 		],
 		"subfolders": []
 	},

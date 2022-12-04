@@ -155,59 +155,6 @@
 					}
 				},
 				{
-					"type": "Text4",
-					"properties": {
-						"text": "Walk through the labyrinth and don't forget to \"smile\"! Otherwise you will have to restart. ",
-						"enable-bbcode": true,
-						"font": "cursive",
-						"size": 10,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 25,
-					"instanceVariables": {},
-					"behaviors": {
-						"Fade": {
-							"properties": {
-								"fade-in-time": 19,
-								"wait-time": 3,
-								"fade-out-time": 4,
-								"destroy": true,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": 14.891259216262085,
-						"y": 113.55293366754574,
-						"width": 235.92106827614947,
-						"height": 78.23686311368647,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,

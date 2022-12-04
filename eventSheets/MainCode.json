@@ -62,6 +62,11 @@
 							"id": "restart-layout",
 							"objectClass": "System",
 							"sid": 199535867602272
+						},
+						{
+							"id": "reset-persisted-objects",
+							"objectClass": "System",
+							"sid": 583329524568364
 						}
 					],
 					"sid": 898461512405913
@@ -473,14 +478,6 @@
 							"parameters": {
 								"variable": "Cokes",
 								"value": "1"
-							}
-						},
-						{
-							"id": "set-text",
-							"objectClass": "CokesCountText",
-							"sid": 718127197588583,
-							"parameters": {
-								"text": "\"Cokes collected\" & Cokes"
 							}
 						}
 					],
@@ -956,6 +953,27 @@
 				}
 			],
 			"sid": 334386665451123
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 343471223699745
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "CokesCountText",
+					"sid": 484070215406255,
+					"parameters": {
+						"text": "\"Cokes collected \" & Cokes"
+					}
+				}
+			],
+			"sid": 816958514733857
 		}
 	],
 	"sid": 538764664856079

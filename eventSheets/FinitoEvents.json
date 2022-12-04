@@ -86,9 +86,12 @@
 			],
 			"actions": [
 				{
-					"id": "stop-all",
+					"id": "stop",
 					"objectClass": "SoundsAndMusic",
-					"sid": 174683822878259
+					"sid": 627717224592604,
+					"parameters": {
+						"tag": "\"backround\""
+					}
 				},
 				{
 					"id": "play",
@@ -101,6 +104,14 @@
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "SoundsAndMusic",
+					"sid": 419740780186207,
+					"parameters": {
+						"tag": "\"GrumpyOldMan\""
+					}
 				}
 			],
 			"sid": 157701803516003
@@ -111,11 +122,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 194936362358245,
+					"sid": 747201297914668,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "yesPleaseBox"
+						"object-clicked": "yesButton"
 					}
 				}
 			],
@@ -123,12 +134,12 @@
 				{
 					"id": "stop-all",
 					"objectClass": "SoundsAndMusic",
-					"sid": 115475214959985
+					"sid": 749973752277338
 				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 538248654593444,
+					"sid": 930869659855948,
 					"parameters": {
 						"layout": "MainLevel"
 					}
@@ -136,7 +147,7 @@
 				{
 					"id": "play",
 					"objectClass": "SoundsAndMusic",
-					"sid": 533588141052515,
+					"sid": 239228823815542,
 					"parameters": {
 						"audio-file": "back1",
 						"loop": "looping",
@@ -146,7 +157,7 @@
 					}
 				}
 			],
-			"sid": 359643040392601
+			"sid": 731832451340650
 		}
 	],
 	"sid": 544063216468106
