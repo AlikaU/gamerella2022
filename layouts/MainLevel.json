@@ -154,7 +154,7 @@
 					},
 					"uid": 3,
 					"instanceVariables": {
-						"isYelling": false,
+						"isYelling": true,
 						"Energy": 0
 					},
 					"behaviors": {

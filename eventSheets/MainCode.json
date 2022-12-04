@@ -1098,7 +1098,7 @@
 						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "Player",
-							"sid": 511583350082768,
+							"sid": 346611546144091,
 							"parameters": {
 								"instance-variable": "isYelling"
 							}

@@ -1,0 +1,27 @@
+{
+	"name": "TitleScreenEvents",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 525347685772360
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 426647782977081,
+					"parameters": {
+						"layout": "MainLevel"
+					}
+				}
+			],
+			"sid": 732743183936453
+		}
+	],
+	"sid": 617102843682538
+}

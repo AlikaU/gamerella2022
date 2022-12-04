@@ -63,6 +63,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -133,7 +141,9 @@
 			"Dust",
 			"Gamepad",
 			"TextFont",
-			"TextBackground"
+			"TextBackground",
+			"Text",
+			"StartButton"
 		],
 		"subfolders": []
 	},
@@ -145,6 +155,7 @@
 	},
 	"layouts": {
 		"items": [
+			"TitleScreen",
 			"MainLevel",
 			"ObjectRepository"
 		],
@@ -152,7 +163,8 @@
 	},
 	"eventSheets": {
 		"items": [
-			"MainCode"
+			"MainCode",
+			"TitleScreenEvents"
 		],
 		"subfolders": []
 	},

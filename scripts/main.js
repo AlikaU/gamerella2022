@@ -28,12 +28,15 @@ async function OnBeforeProjectStart(runtime)
 
 function Tick(runtime)
 {
-	if (player.masked){
-		console.log("masked");
-	} else {
-		console.log("not masked");
-	}
-	console.log(player.x)
+// 	if (player == null) {
+// 		return;
+// 	}
+// 	if (player.isYelling){
+// 		console.log("not masked");
+// 	} else {
+// 		console.log("masked");
+// 	}
+// 	console.log(player.x)
 // 	if (player.Masked && previousMaskedStatus == false) {
 // 		console.log("I am grumpy and masked");
 // 		previousMaskedStatus = true;
