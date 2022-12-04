@@ -103,6 +103,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -201,7 +209,8 @@
 			"TiledBackground",
 			"TiledBackground2",
 			"endGameSprite",
-			"energyText"
+			"energyText",
+			"Background"
 		],
 		"subfolders": []
 	},
@@ -247,7 +256,16 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "back1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 459341840708460,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {

@@ -24,8 +24,27 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 258192512411332
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Background",
+					"sid": 197086443460686,
+					"parameters": {
+						"audio-file": "back1",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
 			"sid": 485191947312333
 		}
 	],

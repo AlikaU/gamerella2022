@@ -192,7 +192,7 @@
 						{
 							"id": "add-to-instvar",
 							"objectClass": "Player",
-							"sid": 746934093021864,
+							"sid": 793246603053674,
 							"parameters": {
 								"instance-variable": "energy",
 								"value": "-1"
