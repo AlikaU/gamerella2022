@@ -344,6 +344,15 @@
 								"instance-variable": "isYelling",
 								"value": "true"
 							}
+						},
+						{
+							"id": "set-paused",
+							"objectClass": "SoundsAndMusic",
+							"sid": 526535184630320,
+							"parameters": {
+								"tag": "\"GrumpyOldMan\"",
+								"state": "resume"
+							}
 						}
 					],
 					"sid": 480995064216047
