@@ -211,7 +211,8 @@
 			"endGameSprite",
 			"energyText",
 			"SoundsAndMusic",
-			"Sprite3"
+			"Sprite3",
+			"sadPplCountText"
 		],
 		"subfolders": []
 	},

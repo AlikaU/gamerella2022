@@ -2,6 +2,16 @@
 	"name": "MainCode",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "sadPeople",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 120808789488268
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Player",
@@ -223,9 +233,9 @@
 						{
 							"id": "set-width",
 							"objectClass": "energyBarProgress",
-							"sid": 652394851937817,
+							"sid": 971175915035738,
 							"parameters": {
-								"width": "(Player.energy/100)*238"
+								"width": "(Player.energy/100)*120"
 							}
 						}
 					],
@@ -274,9 +284,9 @@
 						{
 							"id": "set-width",
 							"objectClass": "energyBarProgress",
-							"sid": 390620916059638,
+							"sid": 792406262530904,
 							"parameters": {
-								"width": "(Player.energy/100)*238"
+								"width": "(Player.energy/100)*120"
 							}
 						}
 					],
@@ -802,6 +812,16 @@
 								"stereo-pan": "0",
 								"tag-optional": "\"\""
 							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 807374677457647,
+							"disabled": true,
+							"parameters": {
+								"variable": "sadPeople",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 950450869626461
@@ -832,6 +852,27 @@
 				}
 			],
 			"sid": 837383652074510
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 882698354129517
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "sadPplCountText",
+					"sid": 598851150864335,
+					"parameters": {
+						"text": "\"People you made sad: \" & sadPeople"
+					}
+				}
+			],
+			"sid": 334386665451123
 		}
 	],
 	"sid": 538764664856079
