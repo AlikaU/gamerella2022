@@ -210,7 +210,7 @@
 			"TiledBackground2",
 			"endGameSprite",
 			"energyText",
-			"Background",
+			"SoundsAndMusic",
 			"Sprite3"
 		],
 		"subfolders": []
@@ -253,7 +253,40 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "owhnoh-highpitch.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 336964457108694,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "grumpy-old-man-highpitch.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 796449159772213,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "grumpy.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 452126969646169,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "single bubble.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 259392038536470,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
@@ -262,6 +295,22 @@
 					"name": "back1.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 459341840708460,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "happy-loop-6978.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 621238726099802,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "party-horn-68443.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 356298364410818,
 					"file-info": {
 						"purpose": "none"
 					}

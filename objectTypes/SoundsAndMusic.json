@@ -1,9 +1,9 @@
 {
-	"name": "Background",
+	"name": "SoundsAndMusic",
 	"plugin-id": "Audio",
 	"sid": 332088514720132,
 	"singleglobal-inst": {
-		"type": "Background",
+		"type": "SoundsAndMusic",
 		"properties": {
 			"timescale-audio": "off",
 			"save-load": "all",
@@ -16,6 +16,6 @@
 			"maximum-distance": 10000,
 			"roll-off-factor": 1
 		},
-		"uid": 89
+		"uid": 90
 	}
 }

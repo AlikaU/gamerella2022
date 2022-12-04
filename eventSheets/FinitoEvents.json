@@ -21,6 +21,83 @@
 				}
 			],
 			"sid": 402262825576052
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 932023813363824,
+					"disabled": true
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "SoundsAndMusic",
+					"sid": 558105717407729,
+					"disabled": true,
+					"parameters": {
+						"audio-file": "party-horn-68443",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "SoundsAndMusic",
+					"sid": 466995123011776,
+					"disabled": true,
+					"parameters": {
+						"tag": "\"GrumpyOldMan\""
+					}
+				}
+			],
+			"sid": 413768291153155
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 734900377085036
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "SoundsAndMusic",
+					"sid": 627717224592604,
+					"parameters": {
+						"tag": "\"backround\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "SoundsAndMusic",
+					"sid": 136617475877181,
+					"parameters": {
+						"audio-file": "happy-loop-6978",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "SoundsAndMusic",
+					"sid": 419740780186207,
+					"parameters": {
+						"tag": "\"GrumpyOldMan\""
+					}
+				}
+			],
+			"sid": 157701803516003
 		}
 	],
 	"sid": 544063216468106

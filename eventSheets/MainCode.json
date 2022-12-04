@@ -2,10 +2,6 @@
 	"name": "MainCode",
 	"events": [
 		{
-			"eventType": "comment",
-			"text": "Made by Viridino Studios (@ViridinoStudios)\n\nMateus Ferreira - Programmer\nTwitter: @BonzerKitten\nE-mail: ferreiramoreiramateus@gmail.com\n\nWesley Andrade - Artist\nTwitter: @andrart7\nE-mail: wesleymatos1989@gmail.com\n\nMade with the support of patrons on https://www.patreon.com/viridinostudios"
-		},
-		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Player",
@@ -119,6 +115,15 @@
 								"instance-variable": "isYelling",
 								"value": "false"
 							}
+						},
+						{
+							"id": "set-paused",
+							"objectClass": "SoundsAndMusic",
+							"sid": 917703014738495,
+							"parameters": {
+								"tag": "\"GrumpyOldMan\"",
+								"state": "pause"
+							}
 						}
 					],
 					"sid": 991046029818778
@@ -152,6 +157,15 @@
 							"parameters": {
 								"instance-variable": "isYelling",
 								"value": "true"
+							}
+						},
+						{
+							"id": "set-paused",
+							"objectClass": "SoundsAndMusic",
+							"sid": 485841436706424,
+							"parameters": {
+								"tag": "\"GrumpyOldMan\"",
+								"state": "resume"
 							}
 						}
 					],
@@ -311,6 +325,31 @@
 					"conditions": [],
 					"actions": [],
 					"sid": 312816265639381
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 168036660282744
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "SoundsAndMusic",
+							"sid": 817298658734510,
+							"parameters": {
+								"audio-file": "grumpy-old-man-highpitch",
+								"loop": "looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"GrumpyOldMan\""
+							}
+						}
+					],
+					"sid": 496063136498953
 				}
 			],
 			"sid": 785432312124313
@@ -717,24 +756,24 @@
 								"animation": "\"Sad\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "SoundsAndMusic",
+							"sid": 473009573651701,
+							"parameters": {
+								"audio-file": "owhnoh-highpitch",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 950450869626461
 				}
 			],
 			"sid": 893761185814737
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 353541407961049
-				}
-			],
-			"actions": [],
-			"sid": 456841435305508
 		},
 		{
 			"eventType": "block",
