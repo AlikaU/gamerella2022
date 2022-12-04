@@ -177,9 +177,9 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 836656934140806,
+							"sid": 691360889794862,
 							"parameters": {
-								"interval-seconds": "0.1"
+								"interval-seconds": "0"
 							}
 						},
 						{
@@ -206,10 +206,10 @@
 						{
 							"id": "add-to-instvar",
 							"objectClass": "Player",
-							"sid": 793246603053674,
+							"sid": 511404573079970,
 							"parameters": {
 								"instance-variable": "energy",
-								"value": "-1"
+								"value": "-0.5"
 							}
 						},
 						{
@@ -229,9 +229,9 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 259368332780638,
+							"sid": 484157442496151,
 							"parameters": {
-								"interval-seconds": "0.1"
+								"interval-seconds": "0"
 							}
 						},
 						{
@@ -257,10 +257,10 @@
 						{
 							"id": "add-to-instvar",
 							"objectClass": "Player",
-							"sid": 809147943454981,
+							"sid": 985309804478388,
 							"parameters": {
 								"instance-variable": "energy",
-								"value": "1"
+								"value": "0.5"
 							}
 						},
 						{
@@ -322,8 +322,34 @@
 				},
 				{
 					"eventType": "block",
-					"conditions": [],
-					"actions": [],
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 364280211228711
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 594727063183430,
+							"parameters": {
+								"instance-variable": "energy",
+								"comparison": 2,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 797270785205516,
+							"parameters": {
+								"instance-variable": "energy",
+								"value": "0"
+							}
+						}
+					],
 					"sid": 312816265639381
 				},
 				{
