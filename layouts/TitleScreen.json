@@ -123,7 +123,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 56,
+					"uid": 26,
 					"instanceVariables": {},
 					"behaviors": {
 						"Fade": {
@@ -176,7 +176,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 57,
+					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {
 						"Fade": {
