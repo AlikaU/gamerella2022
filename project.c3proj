@@ -216,7 +216,9 @@
 			"yesText",
 			"yesButton",
 			"Mouse",
-			"Sprite2"
+			"Sprite2",
+			"bubble",
+			"Text6"
 		],
 		"subfolders": []
 	},

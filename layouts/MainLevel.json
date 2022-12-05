@@ -2583,8 +2583,8 @@
 						"italic": false,
 						"color": [
 							1,
-							1,
-							1,
+							0.9215686274509803,
+							0.9215686274509803,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -2691,8 +2691,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 264,
-						"y": 128,
+						"x": 208,
+						"y": 64,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -2720,7 +2720,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 288,
+						"x": 304,
 						"y": 152,
 						"width": 16,
 						"height": 16,
@@ -2749,8 +2749,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 216,
-						"y": 88,
+						"x": 160,
+						"y": 160,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -2778,8 +2778,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 40,
-						"y": 136,
+						"x": 48,
+						"y": 32,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -2805,9 +2805,9 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							1,
-							1,
-							1,
+							0.9764705882352941,
+							0.9058823529411765,
+							0.9058823529411765,
 							1
 						],
 						"horizontal-alignment": "right",
@@ -2824,6 +2824,48 @@
 						"y": 168,
 						"width": 128,
 						"height": 16,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text6",
+					"properties": {
+						"text": "wasd: move      m: mask",
+						"enable-bbcode": true,
+						"font": "Lato",
+						"size": 7,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.996078431372549,
+							0.9254901960784314,
+							0.9254901960784314,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 112,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 8,
+						"y": -1,
+						"width": 200,
+						"height": 8,
 						"originX": 0,
 						"originY": 0,
 						"color": [

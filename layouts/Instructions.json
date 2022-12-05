@@ -62,7 +62,7 @@
 				{
 					"type": "Text3",
 					"properties": {
-						"text": "Arrow keys: move\nM: mask\n\nIf you make too many people sad, you'll have to start over.\n\nAlso, Jo really loves coke! He must collect all the cans before going home.",
+						"text": "WASD: move\nM: put the mask on\n\nIf you make someone sad, you'll have to start over.\n\nAlso, Jo really loves coke! He must collect all the cans before going home.",
 						"enable-bbcode": true,
 						"font": "Lato",
 						"size": 8,
@@ -230,8 +230,8 @@
 						}
 					},
 					"world": {
-						"x": 194.29228557694995,
-						"y": 54.24832691766825,
+						"x": 219.0171767280658,
+						"y": 51.915790016619596,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -275,8 +275,8 @@
 						}
 					},
 					"world": {
-						"x": 305.7874798079567,
-						"y": 82.70524726804541,
+						"x": 25.88305168211673,
+						"y": 80.83921774720648,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -367,6 +367,35 @@
 					"world": {
 						"x": 242.3425553599168,
 						"y": 167.14306085810512,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "coke",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 113,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 202.88939121417798,
+						"y": 128.4229676624657,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,

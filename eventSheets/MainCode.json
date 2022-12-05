@@ -506,20 +506,20 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 563048963317913,
-							"parameters": {
-								"key": 37
-							}
-						},
-						{
 							"id": "on-button-pressed",
 							"objectClass": "Gamepad",
 							"sid": 494285250984988,
 							"parameters": {
 								"gamepad": "0",
 								"button": "d-pad-left"
+							}
+						},
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 805842561094839,
+							"parameters": {
+								"key": 65
 							}
 						}
 					],
@@ -553,20 +553,20 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 601356809378385,
-							"parameters": {
-								"key": 39
-							}
-						},
-						{
 							"id": "on-button-pressed",
 							"objectClass": "Gamepad",
 							"sid": 919917539925143,
 							"parameters": {
 								"gamepad": "0",
 								"button": "d-pad-right"
+							}
+						},
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 916632966533720,
+							"parameters": {
+								"key": 68
 							}
 						}
 					],
@@ -600,20 +600,20 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 612561679744579,
-							"parameters": {
-								"key": 38
-							}
-						},
-						{
 							"id": "on-button-pressed",
 							"objectClass": "Gamepad",
 							"sid": 611526938012464,
 							"parameters": {
 								"gamepad": "0",
 								"button": "d-pad-up"
+							}
+						},
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 989111042407560,
+							"parameters": {
+								"key": 87
 							}
 						}
 					],
@@ -639,20 +639,20 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 968533206760525,
-							"parameters": {
-								"key": 40
-							}
-						},
-						{
 							"id": "on-button-pressed",
 							"objectClass": "Gamepad",
 							"sid": 965865459943617,
 							"parameters": {
 								"gamepad": "0",
 								"button": "d-pad-down"
+							}
+						},
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 955593819878785,
+							"parameters": {
+								"key": 83
 							}
 						}
 					],
@@ -935,6 +935,33 @@
 						}
 					],
 					"sid": 950450869626461
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 370830006293347,
+							"parameters": {
+								"interval-seconds": "0.1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Enemy",
+							"sid": 557956438587926,
+							"parameters": {
+								"object": "bubble",
+								"layer": "\"Ground\"",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 923921223784955
 				}
 			],
 			"sid": 893761185814737
@@ -975,13 +1002,31 @@
 				{
 					"id": "set-text",
 					"objectClass": "CokesCountText",
-					"sid": 484070215406255,
+					"sid": 353729869373460,
 					"parameters": {
-						"text": "\"Cokes collected \" & Cokes"
+						"text": "\"cokes collected \" & Cokes"
 					}
 				}
 			],
 			"sid": 816958514733857
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 724514177613133
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 815090472519592
+				}
+			],
+			"sid": 997809565761823
 		}
 	],
 	"sid": 538764664856079
